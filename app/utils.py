@@ -5,11 +5,9 @@ import pickle
 import nltk
 from flask import jsonify
 from nltk.stem import WordNetLemmatizer
-from tensorflow.keras.models import load_model
+from datetime import datetime
 
-nltk.download('omw-1.4')
-nltk.download('punkt')
-nltk.download('all')
+from tensorflow.keras.models import load_model
 lemmatizer = WordNetLemmatizer()
 
 intents = json.loads(open('data/intents.json', encoding='utf8').read())
