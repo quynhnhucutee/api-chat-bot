@@ -3,25 +3,27 @@ from flask import Flask, render_template, request
 from flask_cors import cross_origin
 from app.utils import get_response, make_response, predict_class,modal,intents
 from datetime import datetime
+
 @app.route('/')
 @cross_origin()
 def index():
 	data = dict(data='this is botchat api')
 	return make_response(data)
 
-@app.route("/get")
+@app.route("/get" , methods=['GET', 'POST'])
 @cross_origin()
 def get_bot_response():
-    sentence =request.args.get('mess')
+    sentence = request.get_json(force=True)
+    sentence = sentence['data']
     results = predict_class(sentence, modal)
     bot = ""
     if (len(results) > 0):
         if (results[0][0] == 'time'):
             # print('Bot: ' + datetime.now().strftime("%H:%M:%S"))
-            bot = datetime.now().strftime("%H:%M:%S")
+            bot = "Bây giờ là: " + datetime.now().strftime("%H:%M")
         elif (results[0][0] == 'date'):
             # print('Bot: ' + datetime.now().strftime("%d/%m/%Y"))
-            bot = datetime.now().strftime("%d/%m/%Y")
+            bot = "hôm nay là ngày: " + datetime.now().strftime("%d/%m/%Y")
         else:
             # print('Bot: ', get_response(results, intents))
             bot = get_response(results, intents)
