@@ -6,7 +6,10 @@ import nltk
 from flask import jsonify
 from nltk.stem import WordNetLemmatizer
 from tensorflow.keras.models import load_model
+
+nltk.download('omw-1.4')
 nltk.download('punkt')
+nltk.download('all')
 lemmatizer = WordNetLemmatizer()
 
 intents = json.loads(open('intents.json', encoding='utf8').read())
