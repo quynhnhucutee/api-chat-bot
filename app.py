@@ -9,7 +9,7 @@ from flask_cors import CORS
 from flask import jsonify
 from nltk.stem import WordNetLemmatizer
 from tensorflow.keras.models import load_model
-nltk.data.path.append('./nltk_data/')
+# nltk.data.path.append('./nltk_data/')
 app = Flask(__name__)
 CORS(app, resources={r"*": {"origins": "https://fuzzy-c-mean-fe.vercel.app"}}) # change from '*' to this route
 app.config['CORS_HEADERS'] = 'Content-Type'
