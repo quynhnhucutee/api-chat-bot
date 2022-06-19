@@ -12,11 +12,11 @@ nltk.download('punkt')
 nltk.download('all')
 lemmatizer = WordNetLemmatizer()
 
-intents = json.loads(open('intents.json', encoding='utf8').read())
+intents = json.loads(open('data/intents.json', encoding='utf8').read())
 
-words = pickle.load(open('words.pkl', 'rb'))
-classes = pickle.load(open('classes.pkl', 'rb'))
-modal = load_model('chatbot_model.h5')
+words = pickle.load(open('data/words.pkl', 'rb'))
+classes = pickle.load(open('data/classes.pkl', 'rb'))
+modal = load_model('data/chatbot_model.h5')
 
 def clean_up_sentence(sentence):
     sentence_words = nltk.word_tokenize(sentence)
