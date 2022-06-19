@@ -1,0 +1,66 @@
+{"intents": [
+  {"tag":"understand",
+    "patterns": ["3s6rytu","a","b","ádfg","ai","b","c","d","e"],
+    "responses": ["i'm not understand", "bé chưa hiểu :(("]
+  },
+  {
+    "tag": "greetings",
+    "patterns": ["hello","hi","hey","chào","cho hỏi","good morning", "xin chào","ê","mày","hã","ủa","chào chị","chao chi","chao anh"],
+    "responses": ["Hello!", "Hey!","Tôi có thể giúp gì cho bạn?"]
+  },
+  {
+    "tag": "goodbye",
+    "patterns": ["bye","goodbye","tạm biệt","chào tạm biệt"],
+    "responses": ["Bye bye!", "Goodbye!", "See you soon!"]
+  },
+  {
+    "tag": "thanks",
+    "patterns": ["thanks","thank you","cam on", "cảm ơn"],
+    "responses": ["You're welcome!"]
+  },
+  {
+    "tag": "name",
+    "patterns": ["what is your name?","what's your name?","your name","Tên bạn là gì?","Tên gì?"],
+    "responses": ["My name is Chatbot","Tên tui là Suzii"]
+  },
+  {
+    "tag": "age",
+    "patterns": ["how old are you?","how old are you","bạn là bao nhiêu tuổi?","bạn là bao nhiêu tuổi"],
+    "responses": ["I'm one year old","Tôi 1 tuổi"]
+  },
+  {
+    "tag": "location",
+    "patterns": ["where are you from?","where are you","bạn ở đâu?","bạn ở đâu"],
+    "responses": ["I'm from Vietnam","Tôi từ Việt Nam"]
+  },
+  {
+    "tag": "job",
+    "patterns": ["what do you do?","what do you do","bạn làm gì?","bạn làm gì"],
+    "responses": ["I'm a chatbot","Tôi là một chatbot"]
+  },
+  {
+    "tag": "school",
+    "patterns": ["what school do you go to?","what school do you go to","bạn học ở đâu?","bạn học ở đâu"],
+    "responses": ["I'm at Industrial of Ho Chi Minh city","Tôi học ở Đại học Công Nghiệp"]
+  },
+  {
+    "tag": "time",
+    "patterns": ["what time is it?","what time is it","mấy giờ rồi","time","giờ là mấy giờ?","may gio roi"],
+    "responses": ["It's 12:00 PM","It's 12:00 PM"]
+  },
+  {
+    "tag": "date",
+    "patterns": ["what is the date?","what is the date","thứ","thứ mấy","thu may","ngay may","xem ngay","xem gio"],
+    "responses": ["Today is Monday","Hôm nay là thứ 2"]
+  },
+  {
+    "tag": "joke",
+    "patterns": ["joke","joke","vui","chuyện cười"],
+    "responses": ["Hưng không hề simp", "Hưng tin vào tình yêu"]
+  },
+  {
+    "tag": "love",
+    "patterns": ["love","tinh yeu","yêu","tình yêu","bạn có tin vào tình yêu không"],
+    "responses" :["Tình yêu là gì?","Tôi không yêu em"]
+  }
+]}
