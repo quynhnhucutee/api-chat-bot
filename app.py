@@ -18,6 +18,7 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 from flask import Flask, render_template, request
 from flask_cors import cross_origin
 from datetime import datetime
+nltk.download()
 @app.route('/')
 @cross_origin()
 def index():
