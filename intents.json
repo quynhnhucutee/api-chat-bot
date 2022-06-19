@@ -1,12 +1,13 @@
 {"intents": [
-  {"tag":"understand",
-    "patterns": ["3s6rytu","a","b","ádfg","ai","b","c","d","e"],
-    "responses": ["i'm not understand", "bé chưa hiểu :(("]
-  },
   {
     "tag": "greetings",
-    "patterns": ["hello","hi","hey","chào","cho hỏi","good morning", "xin chào","ê","mày","hã","ủa","chào chị","chao chi","chao anh"],
-    "responses": ["Hello!", "Hey!","Tôi có thể giúp gì cho bạn?"]
+    "patterns":["ru4h4","rfrft","e","o","dxs"],
+    "responses": ["What?", "Sao dạaa"]
+  },
+  {
+    "tag": "hi",
+    "patterns": ["hello","hi","hey","chào","cho hỏi","good morning", "xin chào", "good afternoon", "good evening","c h a o","ê"],
+    "responses": ["Hello", "Hi", "Hey", "Chào", "Chao", "Chao ban", "xin chào, mình là cá hồi hoang"]
   },
   {
     "tag": "goodbye",
@@ -59,8 +60,52 @@
     "responses": ["Hưng không hề simp", "Hưng tin vào tình yêu"]
   },
   {
-    "tag": "love",
-    "patterns": ["love","tinh yeu","yêu","tình yêu","bạn có tin vào tình yêu không"],
-    "responses" :["Tình yêu là gì?","Tôi không yêu em"]
+    "tag": "ngu",
+    "patterns": ["co ngu khong", "ngu phai khong"],
+    "responses": ["yes","co"]
+  },
+  {
+    "tag": "stupid",
+    "patterns":["stupid","are you stupid","ngu","ngốc","bạn có ngu không"],
+    "responses": ["I'm not stupid","Tôi không ngu"]
+  },
+  {
+    "tag": "activities",
+    "patterns": ["lam gi do", "lam gi vay","what are you doing","la sao"],
+    "responses": ["I'm doing nothing","Tôi đang không làm gì cả"]
+  },
+  {
+    "tag": "weather",
+    "patterns": ["what is the weather like?","what is the weather like","thời tiết","thời tiết nào?","thời tiết nào","thời tiết ở đâu?","thời tiết ở đâu"],
+    "responses": ["It's sunny","Nắng nóng"]
+  },{
+    "tag": "lament",
+    "patterns":["toi met","met","mệt","mệt quá"],
+    "responses": ["Nghỉ ngơi đi, love you","Hong sao mà, tui đây gòi"]
+  },
+  {
+    "tag": "question",
+    "patterns": ["how are you?","how are you","bạn sao rồi"],
+    "responses": ["I'm fine","Tôi tốt rồi"]
+  },
+  {
+    "tag": "sad",
+    "patterns": ["I'm sad","tao buồn","tôi buồn","buồn","hu hu","hic hic","huhu"],
+    "responses": ["**ôm**","Hong sao mà, có tui đây rồi"]
+  },
+  {
+    "tag": "cry",
+    "patterns":["huhu","hu","huhuhuhuhuhu","huhuhu","hic",":((",":("],
+    "responses":["bạn sao vậy?"]
+  },
+  {
+    "tag": "happy",
+    "patterns":["hi","hihi","haha","hehe","hi hi","hi hi","hô hô"],
+    "responses":["hỏng zui má ơi","ủa mắc gì cười"]
+  },
+  {
+    "tag": "fo",
+    "patterns":["đm","dmm","duma","fuk","fuck","dkm"],
+    "responses":["Địt con mẹ mày mày thích mất dạy không thằng lồn? Đụ đỉ mẹ mày con súc vật nông dân móng chân vàng đừng có để tao phải tìm thấy cái mặt lồn nhà mày rồi tao lại bửa nát tử cung khai thông buồng trứng con mẹ mày đấy. Địt con mẹ mày mày thích mất dạy không thằng lồn đụ đỉ con mẹ mày đừng để tao phải tìm ra cái mặt lồn con mẹ mày rồi tao lại tọng vào lồn con đĩ mẹ mày 1000 cái xà beng nung đỏ và 100 tấn xi măng bít lồn con đĩ mẹ mày địt cả lò nhà mày địt từ hoa kỳ sang pháp địt từ pháp sang việt nam địt từ lồn mẹ mày sâu tới tâm trái đất địt cả họ hàng nhà mày mày thích mất dạy không đụ thằng cha con gái mẹ mày thằng lồn thất bại của tạo hóa đụ con đĩ bà già ông cố nội mày thằng cức người để tao gặp mày lần nữa thì đụ con đĩ mẹ mày 1001 cái sextoy đâm vào lồn con mẹ mày. Đụ con đĩ mẹ mày con súc vật lấc cấc mồm lồn còn hôi sữa mà cứ mở họng ra là tỏ vẻ bố thiên nhiên mẹ thiên hạ à con súc vật cái lồn chó má cả lò nhà mày chỉ là vật lót đường thứ lót dái cho tao mà thôi cho nên đừng có để bố mày phải tìm ra cái mặt lồn con đĩ mẹ mày rồi tao lại bít xi măng chằng mạng nhện bện lá khoai cái lồn mẹ mày lại nhé."]
   }
 ]}
