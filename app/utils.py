@@ -8,6 +8,8 @@ from nltk.stem import WordNetLemmatizer
 from datetime import datetime
 
 from tensorflow.keras.models import load_model
+import nltk
+nltk.download('punkt')
 lemmatizer = WordNetLemmatizer()
 
 intents = json.loads(open('data/intents.json', encoding='utf8').read())
