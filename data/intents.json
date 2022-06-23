@@ -26,17 +26,12 @@
         "xin chào",
         "good afternoon",
         "good evening",
-        "c h a o",
-        "ê"
+        "e may","e m",
+        "ê","quê"
       ],
       "responses": [
-        "Hello",
-        "Hi",
-        "Hey",
-        "Chào",
-        "Chao",
-        "Chao ban",
-        "xin chào, mình là cá hồi hoang"
+        "xin chào", "gì mày", "what's up", "dạ",
+        "xin chào, tụi mình là cá hồi hoang"
       ]
     },
     {
@@ -45,7 +40,7 @@
         "bye",
         "goodbye",
         "tạm biệt",
-        "chào tạm biệt"
+        "chào tạm biệt","pp","tam biet","bai"
       ],
       "responses": [
         "Bye bye!",
@@ -72,7 +67,7 @@
         "what's your name?",
         "your name",
         "Tên bạn là gì?",
-        "Tên gì?"
+        "Tên gì?","ten","ten ban la gi","your name"
       ],
       "responses": [
         "My name is Chatbot",
@@ -84,8 +79,8 @@
       "patterns": [
         "how old are you?",
         "how old are you",
-        "bạn là bao nhiêu tuổi?",
-        "bạn là bao nhiêu tuổi"
+        "bạn bao nhiêu tuổi?",
+        "ban bao nhieu tuoi"
       ],
       "responses": [
         "I'm one year old",
@@ -98,7 +93,7 @@
         "where are you from?",
         "where are you",
         "bạn ở đâu?",
-        "bạn ở đâu"
+        "ban o dau"
       ],
       "responses": [
         "I'm from Vietnam",
@@ -111,11 +106,10 @@
         "what do you do?",
         "what do you do",
         "bạn làm gì?",
-        "bạn làm gì"
+        "bạn làm gì","đang làm gì","dang lam gi"
       ],
       "responses": [
-        "I'm a chatbot",
-        "Tôi là một chatbot"
+        "Đang ngủ", "Đang chơi ","Đang nói chuyện với một bạn đáng yêu","Đang flexing ở cricleK"
       ]
     },
     {
@@ -139,7 +133,7 @@
         "mấy giờ rồi",
         "time",
         "giờ là mấy giờ?",
-        "may gio roi"
+        "may gio roi","bay gio la may gio","may gio roi","mấy giờ rồi","giờ"
       ],
       "responses": [
         "It's 12:00 PM",
@@ -251,7 +245,9 @@
       "patterns": [
         "how are you?",
         "how are you",
-        "bạn sao rồi"
+        "bạn sao rồi",
+        "khỏe không",
+        "khỏe k","khoe khong","khoe k","ổn không","on khong","ổn k","on k"
       ],
       "responses": [
         "I'm fine",
@@ -265,7 +261,7 @@
         "buon",
         "buồn",
         "khóc",
-        "hu hu",
+        ":((",
         "hic hic",
         "huhu"
       ],
@@ -291,14 +287,18 @@
       ]
     },
     {
+      "tag":"start",
+      "patterns": ["tui nè","nè","nà","tao nè"],"responses":["là ai má","hong biết"]
+    },
+    {
       "tag": "happy",
       "patterns": [
         "hi",
         "hihi",
         "haha",
         "hehe",
-        "hi hi",
-        "hi hi",
+        "hihihi",
+        "ahihi",
         "hô hô"
       ],
       "responses": [
@@ -316,7 +316,7 @@
         "fuck",
         "dkm",
         "dm",
-        "d m m"
+        "cc","cặc"
       ],
       "responses": [
         "Địt con mẹ mày mày thích mất dạy không thằng lồn? Đụ đỉ mẹ mày con súc vật nông dân móng chân vàng đừng có để tao phải tìm thấy cái mặt lồn nhà mày rồi tao lại bửa nát tử cung khai thông buồng trứng con mẹ mày đấy. Địt con mẹ mày mày thích mất dạy không thằng lồn đụ đỉ con mẹ mày đừng để tao phải tìm ra cái mặt lồn con mẹ mày rồi tao lại tọng vào lồn con đĩ mẹ mày 1000 cái xà beng nung đỏ và 100 tấn xi măng bít lồn con đĩ mẹ mày địt cả lò nhà mày địt từ hoa kỳ sang pháp địt từ pháp sang việt nam địt từ lồn mẹ mày sâu tới tâm trái đất địt cả họ hàng nhà mày mày thích mất dạy không đụ thằng cha con gái mẹ mày thằng lồn thất bại của tạo hóa đụ con đĩ bà già ông cố nội mày thằng cức người để tao gặp mày lần nữa thì đụ con đĩ mẹ mày 1001 cái sextoy đâm vào lồn con mẹ mày. Đụ con đĩ mẹ mày con súc vật lấc cấc mồm lồn còn hôi sữa mà cứ mở họng ra là tỏ vẻ bố thiên nhiên mẹ thiên hạ à con súc vật cái lồn chó má cả lò nhà mày chỉ là vật lót đường thứ lót dái cho tao mà thôi cho nên đừng có để bố mày phải tìm ra cái mặt lồn con đĩ mẹ mày rồi tao lại bít xi măng chằng mạng nhện bện lá khoai cái lồn mẹ mày lại nhé."
@@ -329,7 +329,9 @@
         "tinh yeu",
         "yêu",
         "tình yêu",
-        "bạn có tin vào tình yêu không"
+        "bạn có tin vào tình yêu không",
+        "tin vao tinh yeu",
+        "tin vào tình yêu"
       ],
       "responses": [
         "Tình yêu là gì?",
@@ -412,6 +414,17 @@
       "responses": [
         "Tui xài mỗi facebook hôi, link nà :3 https://www.facebook.com/suziike/"
       ]
+    },{
+      "tag" :"flirt",
+      "patterns" : ["yeu ban","toi yeu ban","yêu bạn","love u","love you","yêu em","yêu anh"],
+      "responses": ["em cũng yêu bạn","tôi cũng yêu bạn","lớp diu","**hun**","em có bạn trai rồi"]
+    },{
+      "tag": "talent",
+      "patterns":["bạn có biết","ban co biet","biết","biet"],"responses":["bé biết","có ạ","biết nhe"]
+    },{
+      "tag": "?",
+      "patterns":["?","??","???","??!"],
+      "responses":["?","hmm..."]
     }
   ]
 }
