@@ -6,9 +6,8 @@ import nltk
 from flask import jsonify
 from nltk.stem import WordNetLemmatizer
 from datetime import datetime
-
+import re
 from tensorflow.keras.models import load_model
-import nltk
 nltk.download('all')
 lemmatizer = WordNetLemmatizer()
 
