@@ -1,7 +1,7 @@
 from app import app
 from flask import Flask, render_template, request
 from flask_cors import cross_origin
-from app.utils import get_response, make_response, predict_class,modal,intents
+from app.utils import get_response, make_response, predict_class,modal,intents,no_accent_vietnamese
 from datetime import datetime
 
 @app.route('/')
@@ -14,7 +14,7 @@ def index():
 @cross_origin()
 def get_bot_response():
     sentence = request.get_json(force=True)
-    sentence = sentence['data']
+    sentence = no_accent_vietnamese(sentence['data'])
     results = predict_class(sentence, modal)
     bot = ""
     if (len(results) > 0):
