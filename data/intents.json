@@ -20,17 +20,22 @@
         "hello",
         "hi",
         "hey",
-        "chào",
-        "cho hỏi",
+        "chao",
+        "cho hoi",
         "good morning",
-        "xin chào",
+        "xin chao",
         "good afternoon",
         "good evening",
-        "e may","e m",
-        "ê","quê"
+        "e may",
+        "e m",
+        "ê",
+        "quê"
       ],
       "responses": [
-        "xin chào", "gì mày", "what's up", "dạ",
+        "xin chào",
+        "gì mày",
+        "what's up",
+        "dạ",
         "xin chào, tụi mình là cá hồi hoang"
       ]
     },
@@ -39,8 +44,10 @@
       "patterns": [
         "bye",
         "goodbye",
-        "tạm biệt",
-        "chào tạm biệt","pp","tam biet","bai"
+        "chao tam biet",
+        "pp",
+        "tam biet",
+        "bai"
       ],
       "responses": [
         "Bye bye!",
@@ -54,7 +61,7 @@
         "thanks",
         "thank you",
         "cam on",
-        "cảm ơn"
+        "mon nhe"
       ],
       "responses": [
         "You're welcome!"
@@ -66,12 +73,14 @@
         "what is your name?",
         "what's your name?",
         "your name",
-        "Tên bạn là gì?",
-        "Tên gì?","ten","ten ban la gi","your name"
+        "Ten gi",
+        "ten",
+        "ten ban la gi",
+        "your name"
       ],
       "responses": [
-        "My name is Chatbot",
-        "Tên tui là Suzii"
+        "My name is ...hmm, I'm not sure yet.",
+        "Tên tui là ... đoán đi "
       ]
     },
     {
@@ -79,7 +88,7 @@
       "patterns": [
         "how old are you?",
         "how old are you",
-        "bạn bao nhiêu tuổi?",
+        "nhieu tuoi",
         "ban bao nhieu tuoi"
       ],
       "responses": [
@@ -92,12 +101,12 @@
       "patterns": [
         "where are you from?",
         "where are you",
-        "bạn ở đâu?",
         "ban o dau"
       ],
       "responses": [
         "I'm from Vietnam",
-        "Tôi từ Việt Nam"
+        "Tôi từ Việt Nam",
+        "Tui ở trong tim bạn chứ ở đâu nữa"
       ]
     },
     {
@@ -105,11 +114,14 @@
       "patterns": [
         "what do you do?",
         "what do you do",
-        "bạn làm gì?",
-        "bạn làm gì","đang làm gì","dang lam gi"
+        "ban dang lam gi",
+        "dang lam gi do"
       ],
       "responses": [
-        "Đang ngủ", "Đang chơi ","Đang nói chuyện với một bạn đáng yêu","Đang flexing ở cricleK"
+        "Đang ngủ",
+        "Đang chơi ",
+        "Đang nói chuyện với một bạn đáng yêu",
+        "Đang flexing ở cricleK"
       ]
     },
     {
@@ -117,8 +129,7 @@
       "patterns": [
         "what school do you go to?",
         "what school do you go to",
-        "bạn học ở đâu?",
-        "bạn học ở đâu"
+        "ban hoc o dau"
       ],
       "responses": [
         "I'm at Industrial of Ho Chi Minh city",
@@ -130,10 +141,12 @@
       "patterns": [
         "what time is it?",
         "what time is it",
-        "mấy giờ rồi",
+        "may gio roi",
         "time",
-        "giờ là mấy giờ?",
-        "may gio roi","bay gio la may gio","may gio roi","mấy giờ rồi","giờ"
+        "gio",
+        "may gio roi",
+        "bay gio la may gio",
+        "may gio roi"
       ],
       "responses": [
         "It's 12:00 PM",
@@ -145,12 +158,7 @@
       "patterns": [
         "what is the date?",
         "what is the date",
-        "thứ",
-        "thứ mấy",
-        "thu may",
-        "ngay may",
-        "xem ngay",
-        "xem gio"
+        "thu may"
       ],
       "responses": [
         "Today is Monday",
@@ -163,11 +171,12 @@
         "joke",
         "joke",
         "vui",
-        "chuyện cười"
+        "ke chuyen cuoi"
       ],
       "responses": [
         "Hưng không hề simp",
-        "Hưng tin vào tình yêu"
+        "Hưng tin vào tình yêu",
+        "Có 3 thằng thiếu đèo nhau trên 1 chiếc xe gắn máy. Khi qua ngã tư, đèn đỏ mà nó cứ thế đi nên bị công an vẫy lại. Một thằng trên xe liền hét lên: \"Mày vẫy xe khác đi xe tao chở 3 rồi không chở được thêm nữa\""
       ]
     },
     {
@@ -187,10 +196,10 @@
         "stupid",
         "are you stupid",
         "ngu",
-        "ngốc",
+        "ngok",
+        "ngoc",
         "bạn có ngu không",
-        "đần",
-        "dốt",
+        "ngo",
         "dan"
       ],
       "responses": [
@@ -216,11 +225,9 @@
       "patterns": [
         "what is the weather like?",
         "what is the weather like",
-        "thời tiết",
-        "thời tiết nào?",
-        "thời tiết nào",
-        "thời tiết ở đâu?",
-        "thời tiết ở đâu"
+        "thoi tiet",
+        "hom nay the nao",
+        "weather"
       ],
       "responses": [
         "It's sunny",
@@ -232,8 +239,8 @@
       "patterns": [
         "toi met",
         "met",
-        "mệt",
-        "mệt quá"
+        "met qua",
+        "met moi"
       ],
       "responses": [
         "Nghỉ ngơi đi, love you",
@@ -245,9 +252,11 @@
       "patterns": [
         "how are you?",
         "how are you",
-        "bạn sao rồi",
-        "khỏe không",
-        "khỏe k","khoe khong","khoe k","ổn không","on khong","ổn k","on k"
+        "ban sao roi",
+        "khoe k",
+        "khoe khong",
+        "on khong",
+        "on k"
       ],
       "responses": [
         "I'm fine",
@@ -259,8 +268,7 @@
       "patterns": [
         "sad",
         "buon",
-        "buồn",
-        "khóc",
+        "khoc",
         ":((",
         "hic hic",
         "huhu"
@@ -287,8 +295,18 @@
       ]
     },
     {
-      "tag":"start",
-      "patterns": ["tui nè","nè","nà","tao nè"],"responses":["là ai má","hong biết"]
+      "tag": "start",
+      "patterns": [
+        "tui ne",
+        "na",
+        "tao ne",
+        "to ne",
+        "to na"
+      ],
+      "responses": [
+        "là ai má",
+        "hong biết"
+      ]
     },
     {
       "tag": "happy",
@@ -316,9 +334,11 @@
         "fuck",
         "dkm",
         "dm",
-        "cc","cặc"
+        "cc",
+        "cac"
       ],
       "responses": [
+        "Mày nói cái quái gì về tao thế hả, con đĩ con? Tao cho mày biết là tao đã tốt nghiệp đứng đầu lớp trong Mặt trận Dân tộc Giải phóng miền Nam Việt Nam và được ghi nhận đã giết hơn 300 mạng. Tao được đào tạo trong chiến tranh du kích và tao là xạ thủ hàng đầu trong toàn lực lượng vũ trang Bắc Việt. Đối với tao, mày chẳng là gì ngoài một mục tiêu khác. Tao sẽ xóa cái địt mẹ sổ mày với độ chính xác chưa từng có trên Trái Đất này, nhớ cái địt mẹ lời tao đi. Mày nghĩ mày có thể thoát sau khi nói cái cứt đó với tao trên mạng Internet à? Nghĩ lại đi, thằng địt. Trong khi nói chuyện với mày thì tao đang liên lạc mạng lưới bí mật những điệp viên khắp toàn Việt Nam và địa chỉ IP của mày đang bị truy tìm cho nên mày tốt hơn là chuẩn bị cho cuộc bố ráp đi, đồ dòi bọ. Cuộc bố ráp mà sẽ xóa sổ cái thứ nhỏ nhoi là cuộc đời mày đó. Mày tiêu mẹ rồi con. Tao có thể ở bất cứ đâu, bất cứ khi nào, và tao có thể giết mày bằng hơn 700 cách, và đó mới chỉ là dùng tay không thôi. Tao không chỉ được huấn luyện thuần thục về chiến đấu tay không mà còn có thể tiếp cận toàn bộ khí tài của Binh chủng đặc công Việt Nam và tao sẽ sử dụng hết thảy để xóa sổ cái mạng đáng thương của mày khỏi lục địa, đồ cứt trôi. Phải chi mày biết sự trừng phạt khủng khiếp mà lời ý kiến “hay ho” của mày sẽ sớm đem đến, thì chắc mày đã cẩn thận cái mồm thối của mày. Nhưng mày đã không thể, mày không làm vậy, và giờ mày phải trá giá, thằng khốn ngu ngốc. Tao sẽ ỉa ra sự phẫn nộ lên khắp người mày và mày sẽ chết chìm trong đó. Mày tiêu rồi, thằng nhóc.",
         "Địt con mẹ mày mày thích mất dạy không thằng lồn? Đụ đỉ mẹ mày con súc vật nông dân móng chân vàng đừng có để tao phải tìm thấy cái mặt lồn nhà mày rồi tao lại bửa nát tử cung khai thông buồng trứng con mẹ mày đấy. Địt con mẹ mày mày thích mất dạy không thằng lồn đụ đỉ con mẹ mày đừng để tao phải tìm ra cái mặt lồn con mẹ mày rồi tao lại tọng vào lồn con đĩ mẹ mày 1000 cái xà beng nung đỏ và 100 tấn xi măng bít lồn con đĩ mẹ mày địt cả lò nhà mày địt từ hoa kỳ sang pháp địt từ pháp sang việt nam địt từ lồn mẹ mày sâu tới tâm trái đất địt cả họ hàng nhà mày mày thích mất dạy không đụ thằng cha con gái mẹ mày thằng lồn thất bại của tạo hóa đụ con đĩ bà già ông cố nội mày thằng cức người để tao gặp mày lần nữa thì đụ con đĩ mẹ mày 1001 cái sextoy đâm vào lồn con mẹ mày. Đụ con đĩ mẹ mày con súc vật lấc cấc mồm lồn còn hôi sữa mà cứ mở họng ra là tỏ vẻ bố thiên nhiên mẹ thiên hạ à con súc vật cái lồn chó má cả lò nhà mày chỉ là vật lót đường thứ lót dái cho tao mà thôi cho nên đừng có để bố mày phải tìm ra cái mặt lồn con đĩ mẹ mày rồi tao lại bít xi măng chằng mạng nhện bện lá khoai cái lồn mẹ mày lại nhé."
       ]
     },
@@ -330,12 +350,24 @@
         "yêu",
         "tình yêu",
         "bạn có tin vào tình yêu không",
-        "tin vao tinh yeu",
-        "tin vào tình yêu"
+        "tin vao tinh yeu"
       ],
       "responses": [
         "Tình yêu là gì?",
         "Tôi không yêu em"
+      ]
+    },
+    {
+      "tag": "wibu",
+      "patterns": [
+        "djt me wjbu",
+        "wibu",
+        "quibu",
+        "wjbu"
+      ],
+      "responses": [
+        "Ồ, Mày nhắc tới wibu ư ? Hay lắm đấy con chó, mày đã gáy đủ to để dành được sự chú ý của t rồi đấy. Mày nên mừng sau khi bỏ ra bao công sức, gáy khang cả giọng và mày đã làm được rồi! Mày đã thành công chứng minh mày chỉ là một con chó súc sinh hạ đẳng chuyên bú cu với cái mồm thối đầy bựa cặc. Kể cả vậy t vẫn cảm thấy tội ba má mày khi sinh ra mày đấy, một thằng điếm thèm cặc mê cu thích sủa, gây ô nhiễm không khí khi tiếp tục gáy và mồm phun đầy bựa cặc và tinh trùng. Địt con mẹ mày nếu mày đã đạt được điều mày muốn là thu hút sự chú ý của tao ? Thì làm ơn mày có thể bớt gáy được không ? Tao đéo ngại phải tiếp những con súc vật hạ đẳng như mày nhưng làm ơn đấy màn gáy của mày đã to đến mức làm phiền những người xung quanh đấy. Họ khác mày là những con người bình thường chứ đéo phải là một con sâu bọ như mày cứ mở mồm ra là gáy và gáy. Ôi chúa ơi, phật tổ ơi những con người đầy quyền năng và mạnh mẽ hãy giúp con trừng trị thứ loài vật khiếm khuyết này. Hãy khóa mõm con thú đáng ghê tởm mà cứ liên tục gáy trước mặt con, hãy trừ họa nó cho một thế giới tươi đẹp hơn, đẹp đẽ hơn. Địt con mẹ mày bớt gáy đi, thứ súc vật gớm ghiếc. Những gì mày gáy ra đéo đủ trình độ, đẳng cấp để tao hiểu đâu hết, thứ chó đẻ",
+        "Tôi đéo phải wibu. Những con người NGOÀI CUỘC gọi tôi là wibu đều là những con bò ngu dốt và thiểu năng về trí tuệ. Cảm giác như thế nào khi bạn ở trong một nhóm bạn và chỉ có mình bạn là đứa xem Anime và Manga ? Tôi biết, nó không có gì nghiêm trọng ngay từ đầu. Nhưng bây giờ thì có rồi đây. Share chục bài CityPop chả có con ma nào hó hé, viết tản văn review phim bọn nó cũng chả bao giờ đá động đến. Nhưng chỉ cần share một cái art mà có Anime thôi là bọn thiểu năng đó sẽ bắt đầu \"Wibu\" , \"Quý Bửu\", \"Simp\". 2021 rồi, đùa kiểu đó đo có mẹ gì vui đâu. Bọn nó chỉ biết chửi mình là wibu chỉ vì mình đăng bài có liên quan đến Anime và Manga. Còn sở thích cá nhân thì nó dí boi quan tâm. Tại sao vậy ? Lũ thiểu não này còn chưa bao giờ đụng đến định nghĩa thực sự của nó trên internet, hay thậm chí còn không biết đến việc \"Wibu\" là từ \"Weeaboo\" gốc bị chuyển hóa một cách vô căn cứ ở Việt Nam. Cho đến khi tôi hỏi ngược bọn nó \"mày biết wibu là gì không ? Simp là gì không ?\" Bọn nó lại cười trừ \"Đùa thôi mà, mày không biết đùa ?\" Đùa con cc. Bố mày đo thích đùa kiểu đấy. Giờ tưởng tượng tụi mày share rap rồi tao vào cmt \"Đt m* bọn giới trẻ ngày nay chỉ biết chạy theo xu hướng bú di idol thời đại\" thì lúc đó cảm giác lũ chúng mày như nào ? Chà đạp lên sở thích của người khác rồi bảo đó là đùa, ngu dốt đo chịu được. Cút về nhà mà chỉnh lại cái tư tưởng, còn không thì cút khỏi mắt tao. Đừng có kiểu đọc xong bài này rồi \"Đấy thấy không, văn mẫu wibu đấy\" Văn cái ln mẹ chúng mày, tao đo cù nhây đâu. Tao vả thẳng mặt tụi mày đấy, lũ con bò bị truyền thông dắt mũi."
       ]
     },
     {
@@ -402,7 +434,6 @@
       "tag": "social",
       "patterns": [
         "social",
-        "mạng xã hội",
         "mang xa hoi",
         "face",
         "facebook",
@@ -414,17 +445,52 @@
       "responses": [
         "Tui xài mỗi facebook hôi, link nà :3 https://www.facebook.com/suziike/"
       ]
-    },{
-      "tag" :"flirt",
-      "patterns" : ["yeu ban","toi yeu ban","yêu bạn","love u","love you","yêu em","yêu anh"],
-      "responses": ["em cũng yêu bạn","tôi cũng yêu bạn","lớp diu","**hun**","em có bạn trai rồi"]
-    },{
+    },
+    {
+      "tag": "flirt",
+      "patterns": [
+        "yeu ban",
+        "toi yeu ban",
+        "yeu ban",
+        "love u",
+        "love you",
+        "yeu em",
+        "yeu anh"
+      ],
+      "responses": [
+        "em cũng yêu bạn",
+        "tôi cũng yêu bạn",
+        "lớp diu",
+        "**hun**",
+        "em có bạn trai rồi"
+      ]
+    },
+    {
       "tag": "talent",
-      "patterns":["bạn có biết","ban co biet","biết","biet"],"responses":["bé biết","có ạ","biết nhe"]
-    },{
+      "patterns": [
+        "bạn có biết",
+        "ban co biet",
+        "biết",
+        "biet"
+      ],
+      "responses": [
+        "bé biết",
+        "có ạ",
+        "biết nhe"
+      ]
+    },
+    {
       "tag": "?",
-      "patterns":["?","??","???","??!"],
-      "responses":["?","hmm..."]
+      "patterns": [
+        "?",
+        "??",
+        "???",
+        "??!"
+      ],
+      "responses": [
+        "?",
+        "hmm..."
+      ]
     }
   ]
 }
