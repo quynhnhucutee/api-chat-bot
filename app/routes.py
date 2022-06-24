@@ -19,15 +19,11 @@ def get_bot_response():
     bot = ""
     if (len(results) > 0):
         if (results[0][0] == 'time'):
-            # print('Bot: ' + datetime.now().strftime("%H:%M:%S"))
             bot = "Bây giờ là: " + datetime.now().strftime("%H:%M")
         elif (results[0][0] == 'date'):
-            # print('Bot: ' + datetime.now().strftime("%d/%m/%Y"))
             bot = "hôm nay là ngày: " + datetime.now().strftime("%d/%m/%Y")
         else:
-            # print('Bot: ', get_response(results, intents))
             bot = get_response(results, intents)
     else:
-        # print("Bot: I'm not sure what you mean.")
-        bot = "Hưng chưa lập trình cho tình huống này :("
+        bot = "Nói gì hỏng hiểu :<"
     return make_response({"bot": bot})
