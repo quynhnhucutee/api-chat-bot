@@ -491,6 +491,12 @@
         "?",
         "hmm..."
       ]
+    },{
+      "tag": "sorry",
+      "patterns": [
+        "sorry",
+        "xin loi"],
+        "responses": ["ngoan đấy con chó","m thử không xin lỗi xem, coi t có ỉa lên đầu m không?","uk" ]
     }
   ]
 }
